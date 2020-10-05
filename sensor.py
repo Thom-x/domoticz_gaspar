@@ -25,7 +25,7 @@ from homeassistant.const import (
 )
 
 
-SCAN_INTERVAL = timedelta(seconds=2)
+SCAN_INTERVAL = timedelta(minutes=30)
 LOGIN_BASE_URI = 'https://monespace.grdf.fr/web/guest/monespace'
 API_BASE_URI = 'https://monespace.grdf.fr/monespace/particulier'
 API_ENDPOINT_LOGIN = '?p_p_id=EspacePerso_WAR_EPportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_EspacePerso_WAR_EPportlet__jsfBridgeAjax=true&_EspacePerso_WAR_EPportlet__facesViewIdResource=%2Fviews%2FespacePerso%2FseconnecterEspaceViewMode.xhtml'
