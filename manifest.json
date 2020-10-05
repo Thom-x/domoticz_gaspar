@@ -1,8 +1,8 @@
 {
-  "domain": "example_sensor",
-  "name": "Example Sensor",
-  "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
+  "domain": "gazpar",
+  "name": "Compteur Gazpar",
+  "documentation": "",
   "dependencies": [],
-  "codeowners": [],
+  "codeowners": ["MAUGIN Thomas"],
   "requirements": ["numpy==1.19.2", "python-dateutil==2.8.1", "requests==2.24.0", "lxml==4.5.2"]
 }
