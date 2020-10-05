@@ -1,1 +1,1 @@
-"""The example sensor integration."""
+"""Gazpar integration."""
