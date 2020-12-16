@@ -4,6 +4,6 @@
   "documentation": "https://github.com/Thom-x/HomeAssistant_Gazpar",
   "issue_tracker": "https://github.com/Thom-x/HomeAssistant_Gazpar/issues",
   "dependencies": [],
-  "codeowners": ["Thom-x"],
+  "codeowners": ["@Thom-x"],
   "requirements": ["numpy==1.19.2", "python-dateutil==2.8.1", "requests==2.24.0", "lxml==4.5.2"]
 }
