@@ -57,7 +57,10 @@ class GazparSensor(Entity):
         self._username = config.get(CONF_EMAIL)
         self._password = config.get(CONF_PASSWORD)
         self._state = None
-        self.update()
+        try:
+             self.update()
+        except:
+            logging.info("Unable to get data at startup")
 
     @property
     def name(self):
