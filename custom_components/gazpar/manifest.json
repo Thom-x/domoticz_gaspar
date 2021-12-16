@@ -6,6 +6,7 @@
   "dependencies": [],
   "version": "1.0.0",
   "codeowners": ["@Thom-x"],
-  "requirements": ["numpy==1.20.3", "python-dateutil==2.8.1", "requests==2.26.0", "lxml==4.6.5"],
+  //"requirements": ["numpy==1.20.3", "python-dateutil==2.8.1", "requests==2.26.0", "lxml==4.7.1"],
+  "requirements": [],
   "iot_class": "cloud_polling"
 }
